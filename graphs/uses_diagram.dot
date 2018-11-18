@@ -1,0 +1,14 @@
+digraph G {
+	graph [name="Diagrama import", dpi=300];
+	node [label="\N"];
+	graph [bb="0,0,190,288"];
+	main [label="{main|{{class\l}|{Class1}}}", shape=Mrecord, pos="49,264", width="1.3611", height="0.65278"];
+	time [label=time, shape=ellipse, pos="63,18", width="0.75", height="0.5"];
+	module2 [label="{module2|{{class\l}|{class21, class22}}}", shape=Mrecord, pos="115,96", width="2.0903", height="0.65278"];
+	module1 [label="{module1|{{class\l}|{Class11}}}", shape=Mrecord, pos="130,180", width="1.4514", height="0.65278"];
+	main -> time [pos="e,50.379,34.123 41.516,240.75 30.523,204.62 13.055,131.27 30,72 32.994,61.526 38.723,51.108 44.579,42.315"];
+	main -> module1 [pos="e,108.17,203.1 71.134,240.59 80.316,231.3 91.096,220.38 100.9,210.45"];
+	module2 -> time [pos="e,73.925,34.967 99.68,72.609 93.414,63.451 86.146,52.829 79.741,43.467"];
+	main -> module2 [pos="e,93.09,119.04 49.77,240.75 51.259,218.43 55.575,183.51 68,156 72.663,145.67 79.543,135.59 86.608,126.76"];
+	module1 -> module2 [pos="e,119.04,119.1 125.9,156.59 124.35,148.12 122.55,138.3 120.87,129.1"];
+}

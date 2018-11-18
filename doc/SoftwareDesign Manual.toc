@@ -1,0 +1,4 @@
+\babel@toc {english}{}
+\contentsline {part}{I\hspace {1em}User Manual}{3}{part.1}
+\contentsline {part}{II\hspace {1em}Developer Guidelines}{13}{part.2}
+\contentsfinish 

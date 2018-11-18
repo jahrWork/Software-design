@@ -1,0 +1,29 @@
+digraph G {
+	graph [grap_name="Diagrama de types"];
+	node [label="\N"];
+	graph [bb="0,0,182,147"];
+	subgraph cluster_main {
+		graph [label=main,
+			bb="8,64,92,139"];
+		galaxy [pos="50,90", width="0.92774", height="0.5"];
+	}
+	subgraph cluster_modulo1 {
+		graph [label=modulo1,
+			bb="100,64,174,139"];
+		earth [pos="137,90", width="0.78608", height="0.5"];
+	}
+	subgraph cluster_modulo11 {
+		graph [label=modulo11,
+			bb=""];
+	}
+	subgraph cluster_modulo21 {
+		graph [label=modulo21,
+			bb=""];
+	}
+	subgraph cluster_modulo2 {
+		graph [label=modulo2,
+			bb=""];
+	}
+	planet [pos="50,18", width="0.89579", height="0.5"];
+	galaxy -> planet [pos="e,50,36.104 50,71.697 50,63.983 50,54.712 50,46.112"];
+}
