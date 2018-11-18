@@ -6,7 +6,7 @@ from tkinter import filedialog as tkFileDialog
 import sys
 import time
 
-import pydot
+import pydot 
 
 class ModuleNode(pydot.Node):
     def __init__(self, name, filename = "", obj_dict = None, **attrs):
