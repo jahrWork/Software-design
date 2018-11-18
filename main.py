@@ -4,7 +4,7 @@ import os
 import matplotlib.pyplot as plt
 import matplotlib.widgets as widg
 print (dir(widg))
-from matplotlib.widgets import TextBox
+from matplotlib.widgets import TextBox 
 
 import json
 import PIL

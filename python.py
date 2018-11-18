@@ -3,7 +3,7 @@ import os
 import time
 import pydot
 import setuptools
-from collections import namedtuple as Namedtuple
+from collections import namedtuple as Namedtuple 
 
 
 class ModuleNode(pydot.Node):
