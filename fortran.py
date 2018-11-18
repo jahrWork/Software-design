@@ -22,7 +22,7 @@ class FortranProgram(object):
         self.modules_searched = []
         self.nodes = []
         self.grafico = None
-        self.graficotypes = None
+        self.graficotypes = None 
         self.filenames = []
         self.filetypes = {}
         self.tipos_ficheros = {} 
