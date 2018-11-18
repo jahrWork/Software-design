@@ -22,7 +22,7 @@ class ProgramPython(object):
         module = re.sub("[.]{1,1}py$", '', module)
         module = module.replace(os.sep, '.')
         module = module.replace('\\', '.')
-        return module
+        return module 
 
     def _find_existing_packages(self, paths):
         findings = list()

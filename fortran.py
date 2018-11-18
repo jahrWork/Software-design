@@ -25,7 +25,7 @@ class FortranProgram(object):
         self.graficotypes = None
         self.filenames = []
         self.filetypes = {}
-        self.tipos_ficheros = {}
+        self.tipos_ficheros = {} 
         self.__get_project_dependencies()
         self.create_legend()
         

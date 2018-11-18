@@ -16,7 +16,7 @@ from python  import  generate_diagrams as generate_diagrams_python
 
 
 class Interface(object):
-    def __init__(self):
+    def __init__(self): 
         #~ window=Tk()
         #~ w=Frame(window)
         
