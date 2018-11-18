@@ -18,7 +18,7 @@ class FortranProgram(object):
         self.lstExcludes=lstExcludes
         self.main_file_name = main_file_name
         self.main_name = ""
-        self.program_directory = program_directory
+        self.program_directory = program_directory  
         self.modules_searched = []
         self.nodes = []
         self.grafico = None

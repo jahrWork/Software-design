@@ -26,7 +26,7 @@ class ProgramPython(object):
 
     def _find_existing_packages(self, paths):
         findings = list()
-        if isinstance(paths, str):
+        if isinstance(paths, str):  
             paths = [paths]
             pass
         for path in paths:
